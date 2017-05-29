@@ -1,5 +1,6 @@
 language: scala
 
+# TODO: wrap details in shell or makefile to => iteration of multiple json files.
 
 script
  - git clone https://github.com/geneontology/syngo2lego.git
