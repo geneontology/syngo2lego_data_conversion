@@ -3,6 +3,6 @@ import sbt._
 
 object MyBuild extends Build 
   { lazy val root = Project ( "root" , file ( "." )) dependsOn 
-                  ( brainscowl ) 
+                  ( syngo2lego ) 
                   lazy val brainscowl = RootProject (
-                      uri ( "git://github.com/dosumis/brainscowl.git" )) }
+                      uri ( "git://github.com/geneontology/syngo2lego.git)) }
