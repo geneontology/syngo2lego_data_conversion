@@ -1,8 +1,11 @@
 language: scala
 
-git clone https://github.com/geneontology/syngo2lego.git
 
 script
+ - git clone https://github.com/geneontology/syngo2lego.git
  - cd syngo2lego
  - sbt "run -dev ../json/SynGO.json"
  - mv SYNGO* ../ttl/.
+ - cd ..
+ - git add ttl/*
+ - git commit -m'Travis autocommit'
