@@ -1,0 +1,8 @@
+language: scala
+
+git clone https://github.com/geneontology/syngo2lego.git
+
+script
+ - cd syngo2lego
+ - sbt "run -dev ../json/SynGO.json"
+ - mv SYNGO* ../ttl/.
