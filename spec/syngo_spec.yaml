@@ -16,10 +16,12 @@ definitions:
          target:
             type: array
             items: string          
-        assay:
+         assay:
             type: array
             items: string
    comm:
+      type: object
+      additionalProperties: False          
       properties:
          species:
             type: string
@@ -29,11 +31,13 @@ definitions:
             description: ""
          general: 
             type: array
+            description: ""
             items: { $ref: '#/definitions/general_comment' }
    general_comment:
-      properties:
+      type: object
       required: [username, text, timestamp]
       additionalProperties: False        
+      properties:
          username:
             type: string
             description: > 
@@ -51,22 +55,21 @@ required: [annotationid, username, pmid, uniprot, goTerm, evidence]
 additionalProperties: False
 
 properties:
-   
    annotationid:
       description: "Accession number for annotation."
-   	  type: integer
+      type: integer
    username:
-     description: "Identifier for user. May be initials, or orcid if available."
-type: string,
+      description: "Identifier for user. May be initials, or orcid if available."
+      type: string
    pmid:
-     description: "Pubmed accession number"
-     type: integer
+      description: "Pubmed accession number"
+      type: integer
    figures:
-     description: "Some text describing figures where evidence may be found"
-     type: string
+      description: "Some text describing figures where evidence may be found"
+      type: string
    uniprot:
-     description: "A valid uniprot identifier."
-     type: string 
+      description: "A valid uniprot identifier."
+      type: string 
    goDomain:
       description: "GO aspect.  Warning: 'BP' covers some terms in the GO MF domain."
       type: string
