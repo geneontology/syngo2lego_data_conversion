@@ -1,0 +1,90 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+title: syngo
+type: object
+additionalProperties: False
+
+definitions: 
+   evid:
+      type: object
+      required: [system, target, assay]
+      additionalProperties: False      
+      properties: 
+         system:
+            description: A list of ECO IDs (OBO ID format), defining 
+            type: array
+            items: string 
+         target:
+            type: array
+            items: string          
+        assay:
+            type: array
+            items: string
+   comm:
+      properties:
+         species:
+            type: string
+            description: ""
+         rationale:
+            type: string
+            description: ""
+         general: 
+            type: array
+            items: { $ref: '#/definitions/general_comment' }
+   general_comment:
+      properties:
+      required: [username, text, timestamp]
+      additionalProperties: False        
+         username:
+            type: string
+            description: > 
+              Identifier for user making comment. May be initials, or orcid if available.
+         text:
+            type: string
+            description: "Text of comment"
+         timestamp:
+            type: string
+            description: "Timestamp in ??? format."
+
+         
+
+required: [annotationid, username, pmid, uniprot, goTerm, evidence]
+additionalProperties: False
+
+properties:
+   
+   annotationid:
+      description: "Accession number for annotation."
+   	  type: integer
+   username:
+     description: "Identifier for user. May be initials, or orcid if available."
+type: string,
+   pmid:
+     description: "Pubmed accession number"
+     type: integer
+   figures:
+     description: "Some text describing figures where evidence may be found"
+     type: string
+   uniprot:
+     description: "A valid uniprot identifier."
+     type: string 
+   goDomain:
+      description: "GO aspect.  Warning: 'BP' covers some terms in the GO MF domain."
+      type: string
+      enum: ["CC", "BP"]
+   goTerm:
+      description: "A valid GO term ID (OBO style - with a colon)."
+      type: string
+   regulates:
+      description: "Flag for investigation of potential regulation terms applicable."
+      type: boolean
+   evidence: 
+      $ref: '#/definition/evid'
+   extensions:
+      type: object
+      description: >
+        A dictionary (associative array) where key = extension relation (underscore style id) 
+        value = list of ontology term IDs (OBO style IDs)
+   comments:
+      $ref: '#/definition/comm'
+      
+  
