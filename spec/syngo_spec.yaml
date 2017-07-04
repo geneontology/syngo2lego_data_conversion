@@ -11,7 +11,7 @@ properties:
 
 definitions: 
   combi:
-    type: object:
+    type: object
     required: [combi_id, models]
     properties:
       datestamp:
@@ -55,9 +55,9 @@ definitions:
         type: array
         items: { $ref: '#/definitions/general_comment' }
   general_comment:
-    properties:
     required: [username, text, timestamp]
     additionalProperties: False
+    properties:
       username:
         type: string
         description: > 
