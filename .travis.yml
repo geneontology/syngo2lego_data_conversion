@@ -1,12 +1,14 @@
-language: scala
+# specify python as the language
+language: python
 
-# TODO: wrap details in shell or makefile to => iteration of multiple json files.
+# python versions to be used for testing
+python:
+   - "3.5"
+ 
+install:
+   - pip install -r requirements.txt
+
+# test script
 
 script:
- - git clone https://github.com/geneontology/syngo2lego.git
- - cd syngo2lego
- - sbt "run -dev ../json/SynGO.json"
- - mv SYNGO* ../ttl/.
- - cd ..
- - git add ttl/*
- - git commit -m'Travis autocommit'
+   - python src/simple_validator.py spec/syngo_spec.yaml json
