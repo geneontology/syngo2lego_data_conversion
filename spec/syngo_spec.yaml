@@ -1,24 +1,25 @@
 $schema: "http://json-schema.org/draft-04/schema#"
 title: syngo
 type: object
-additionalProperties: False
 
 definitions: 
    evid:
       type: object
       required: [system, target, assay]
-      additionalProperties: False      
+      additionalProperties: False
       properties: 
          system:
-            description: A list of ECO IDs (OBO ID format), defining 
+            description: A list of ECO IDs (OBO ID format) recording biological system.'
             type: array
-            items: string 
+            items: { type: 'string' }
          target:
+            description: A list of ECO IDs (OBO ID format) recording protein targetted.'
             type: array
-            items: string          
+            items: { type: 'string' }
          assay:
+            description: A list of ECO IDs (OBO ID format) recording assay used.'
             type: array
-            items: string
+            items: { type: 'string' }
    comm:
       type: object
       additionalProperties: False          
@@ -36,7 +37,7 @@ definitions:
    general_comment:
       type: object
       required: [username, text, timestamp]
-      additionalProperties: False        
+      additionalProperties: False
       properties:
          username:
             type: string
@@ -48,8 +49,6 @@ definitions:
          timestamp:
             type: string
             description: "Timestamp in ??? format."
-
-         
 
 required: [annotationid, username, pmid, uniprot, goTerm, evidence]
 additionalProperties: False
@@ -81,13 +80,15 @@ properties:
       description: "Flag for investigation of potential regulation terms applicable."
       type: boolean
    evidence: 
-      $ref: '#/definition/evid'
+      $ref: '#/definitions/evid'
    extensions:
-      type: object
+      type: array
+      items:  { type: 'object' }
       description: >
-        A dictionary (associative array) where key = extension relation (underscore style id) 
-        value = list of ontology term IDs (OBO style IDs)
+        An array of dictionaries (associative arrays) where -
+        key = extension relation (underscore style id) ;
+        value = list of ontology term IDs (OBO style IDs).
+        Each dictionary in the array represents a single, extended annotation.
    comments:
-      $ref: '#/definition/comm'
-      
-  
+      $ref: '#/definitions/comm'
+
