@@ -28,10 +28,13 @@ v = Draft4Validator(spec)
 
 docs = glob.glob(sys.argv[2] + "*.json")
 
+if not len(docs):
+    warnings.warn("No test files in " + sys.argv[2])
+
 stat = True
 for doc in docs:
-    warnings.warn("Checking %s" % pattern_doc)
-    file = open(pattern_doc, "r")
+    warnings.warn("Checking %s" % doc)
+    file = open(doc, "r")
     pattern = yaml.load(file.read())
     if not test_jschema(v, pattern): stat = False
     if not test_vars(pattern): stat = False
