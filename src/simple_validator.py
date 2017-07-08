@@ -1,4 +1,5 @@
 import yaml
+import json
 from jsonschema import Draft4Validator
 import sys
 import glob
@@ -36,8 +37,8 @@ stat = True
 for doc in docs:
     warnings.warn("Checking %s" % doc)
     file = open(doc, "r")
-    pattern = yaml.load(file.read())
+    pattern = json.loads(file.read())
     if not test_jschema(v, pattern): stat = False
-   
+  
 if not stat:
     sys.exit(1)
