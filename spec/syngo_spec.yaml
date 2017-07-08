@@ -4,7 +4,7 @@ type: object
 additionalProperties: False
 
 properties:
-  synGO:
+  SynGO:
     array: 
     items: { $ref: '#/definitions/combi' } 
   
@@ -15,7 +15,7 @@ definitions:
     required: [combi_id, models]
     properties:
       datestamp:
-        description: "A datestamp in format: yyyy-MM-dd." # Use timestamp on first in set of models
+        description: "A datestamp in format: yyyy-mm-dd." # Use timestamp on first in set of models
         type: string
       combi_id:
         description: > 
@@ -27,22 +27,25 @@ definitions:
           A set of syngo annotations to be combined in a single GO-CAM (LEGO) model
         type: array
         items: { $ref: '#/definitions/model' }
-  
+
   evid:
     type: object
     required: [system, target, assay]
     additionalProperties: False
     properties: 
       system:
-        description: A list of ECO IDs (OBO ID format), defining 
+        description: A list of ECO IDs (OBO ID format) recording biological system.
         type: array
-        items: string 
+        items: { type: 'string' }
       target:
+        description: A list of ECO IDs (OBO ID format) recording protein targetted.
         type: array
-        items: string       
+        items: { type: 'string' }
       assay:
+        description: A list of ECO IDs (OBO ID format) recording assay used.
         type: array
-        items: string
+        items: { type: 'string' }
+
   comm:
     properties:
       species:
@@ -54,6 +57,7 @@ definitions:
       general: 
         type: array
         items: { $ref: '#/definitions/general_comment' }
+
   general_comment:
     required: [username, text, timestamp]
     additionalProperties: False
@@ -77,11 +81,11 @@ definitions:
         type: integer
       username:
         description: "Identifier for user. May be initials, or orcid if available."
-        type: string,
+        type: string
       pmid:
         description: "Pubmed accession number"
-        type: integer
-      figures: 
+        type: string
+      figures:
         description: "Some text describing figures where evidence may be found"
         type: string
       uniprot:
@@ -98,12 +102,15 @@ definitions:
         description: "Flag for investigation of potential regulation terms applicable."
         type: boolean
       evidence: 
-        $ref: '#/definition/evid'
+        $ref: '#/definitions/evid'
       extensions:
-        type: object
+        type: array
+        items:  { type: 'object' }
         description: >
-          A dictionary (associative array) where key = extension relation (underscore style id) 
-          value = list of ontology term IDs (OBO style IDs)
+          An array of dictionaries (associative arrays) where -
+          key = extension relation (underscore style id) ;
+          value = list of ontology term IDs (OBO style IDs).
+          Each dictionary in the array represents a single, extended annotation.
       comments:
         $ref: '#/definitions/comm'
 
