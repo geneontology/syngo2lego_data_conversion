@@ -11,4 +11,4 @@ install:
 # test script
 
 script:
-   - python src/simple_validator.py spec/syngo_spec.yaml json
+   - python src/simple_validator.py spec/syngo_spec.yaml json/
