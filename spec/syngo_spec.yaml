@@ -63,7 +63,7 @@ properties:
       type: string
    pmid:
       description: "Pubmed accession number"
-      type: integer
+      type: string
    figures:
       description: "Some text describing figures where evidence may be found"
       type: string
