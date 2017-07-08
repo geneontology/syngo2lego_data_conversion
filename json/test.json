@@ -1,1 +1,46 @@
-{"username": "gundelfinger", "evidence": {"assay": ["ECO:0006039"], "target": ["target:overexpression"], "system": ["biosys:nonneuron"]}, "comments": {"general": [{"username": "gundelfinger", "timestamp": "2017-01-19 11:48:26", "text": "Synapse types are infered from SynGO ID 89."}], "rationale": "The primary PMID shows regulation of human PMCA1 activity, the inference shows the occurence of PMCA1 at presynaptic active zone by proteomics.\n\n26/01/2017 Pim\nInference:\n18029012 Fig.6: shows IDA of \"regulation of cytosolic calcium levels\" of human AT2B1\nSynGO ID#89: shows localization of rat AT2B1 in the AZ membrane of GABA and Glutamate synapses.\nknown info: AT2B1 is a ATP-fueled calcium pump.", "species": "HeLa cells were cultured in Dulbecco\u2019s-modified Eagle\u2019s Medium. p. 551"}, "annotationid": 110, "goDomain": "BP", "uniprot": "P20020", "regulates": false, "goTerm": "GO:1905056", "extensions": [{"occurs_in": ["UBERON:0000955", "Glutamatergic"]}, {"occurs_in": ["UBERON:0000955", "GABAergic"]}], "figures": "Figs. 6", "pmid": "18029012"}
+{
+    "annotationid": 110,
+    "comments": {
+        "general": [
+            {
+                "text": "Synapse types are infered from SynGO ID 89.",
+                "timestamp": "2017-01-19 11:48:26",
+                "username": "gundelfinger"
+            }
+        ],
+        "rationale": "The primary PMID shows regulation of human PMCA1 activity, the inference shows the occurence of PMCA1 at presynaptic active zone by proteomics.\n\n26/01/2017 Pim\nInference:\n18029012 Fig.6: shows IDA of \"regulation of cytosolic calcium levels\" of human AT2B1\nSynGO ID#89: shows localization of rat AT2B1 in the AZ membrane of GABA and Glutamate synapses.\nknown info: AT2B1 is a ATP-fueled calcium pump.",
+        "species": "HeLa cells were cultured in Dulbecco\u2019s-modified Eagle\u2019s Medium. p. 551"
+    },
+    "evidence": {
+        "assay": [
+            "ECO:0006039"
+        ],
+        "system": [
+            "biosys:nonneuron"
+        ],
+        "target": [
+            "target:overexpression"
+        ]
+    },
+    "extensions": [
+        {
+            "occurs_in": [
+                "UBERON:0000955",
+                "Glutamatergic"
+            ]
+        },
+        {
+            "occurs_in": [
+                "UBERON:0000955",
+                "GABAergic"
+            ]
+        }
+    ],
+    "figures": "Figs. 6",
+    "goDomain": "BP",
+    "goTerm": "GO:1905056",
+    "pmid": "18029012",
+    "regulates": false,
+    "uniprot": "P20020",
+    "username": "gundelfinger"
+}
