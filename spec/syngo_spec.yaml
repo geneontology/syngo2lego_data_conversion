@@ -17,6 +17,9 @@ definitions:
       datestamp:
         description: "A datestamp in format: yyyy-mm-dd." # Use timestamp on first in set of models
         type: string
+      status:
+        type: string
+        enum: ['development', 'production', 'delete']
       combi_id:
         description: > 
           An identifier for a set of syngo annotations to be combined in a single GO-CAM (LEGO) model.
