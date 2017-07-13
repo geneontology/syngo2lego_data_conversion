@@ -471,7 +471,7 @@
                         "ECO:0000178"],
                   "assay":[
                         "ECO:0006003"],
-                  "Target": []
+                  "target": []
                },
                "figures": "Fig 6"
             }
