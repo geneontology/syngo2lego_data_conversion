@@ -8,16 +8,12 @@
             "models": [
                 {
                     "annotationid": 50,
-                    "timestamp": "2017-04-25 16:39:54",
-                    "userid": "179600",
                     "username": "chua",
-                    "userlab": "chua",
                     "pmid": "9194562",
                     "figures": "Fig 4",
                     "uniprot": "P63011",
                     "goDomain": "BP",
                     "goTerm": "GO:0031630",
-                    "goTermName": "regulation of synaptic vesicle fusion to presynaptic active zone membrane (GO:0031630)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -51,16 +47,12 @@
             "models": [
                 {
                     "annotationid": 80,
-                    "timestamp": "2017-06-06 11:28:43",
-                    "userid": "71165",
                     "username": "ryan",
-                    "userlab": "ryan",
                     "pmid": "23699505",
                     "figures": "3D-E, 6G",
                     "uniprot": "Q03114",
                     "goDomain": "BP",
                     "goTerm": "GO:0099635",
-                    "goTermName": "voltage-gated calcium channel activity involved in positive regulation of presynaptic cytosolic calcium levels (GO:0099635)",
                     "regulates": true,
                     "evidence": {
                         "system": [
@@ -95,16 +87,12 @@
             "models": [
                 {
                     "annotationid": 92,
-                    "timestamp": "2017-03-21 10:03:20",
-                    "userid": "35546",
                     "username": "gundelfinger",
-                    "userlab": "gundelfinger",
                     "pmid": "9679147",
                     "figures": "Fig. 7",
                     "uniprot": "O88778",
                     "goDomain": "CC",
                     "goTerm": "GO:0098831",
-                    "goTermName": "presynaptic active zone cytoplasmic component (GO:0098831)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -144,16 +132,12 @@
             "models": [
                 {
                     "annotationid": 110,
-                    "timestamp": "2017-03-20 18:30:00",
-                    "userid": "35546",
                     "username": "gundelfinger",
-                    "userlab": "gundelfinger",
                     "pmid": "18029012",
                     "figures": "Figs. 6",
                     "uniprot": "P20020",
                     "goDomain": "BP",
                     "goTerm": "GO:1905056",
-                    "goTermName": "ATPase-coupled calcium ion transmembrane transporter activity involved in regulation of presynaptic cytosolic calcium levels (GO:1905056)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -194,16 +178,12 @@
             "models": [
                 {
                     "annotationid": 113,
-                    "timestamp": "2017-03-21 09:16:44",
-                    "userid": "44188",
                     "username": "kaeser",
-                    "userlab": "kaeser",
                     "pmid": "22753485",
                     "figures": "supplemental figure 4",
                     "uniprot": "Q9EQZ7",
                     "goDomain": "BP",
                     "goTerm": "GO:0016082",
-                    "goTermName": "synaptic vesicle priming (GO:0016082)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -238,16 +218,12 @@
             "models": [
                 {
                     "annotationid": 132,
-                    "timestamp": "2017-03-21 10:00:34",
-                    "userid": "61272",
                     "username": "verhage",
-                    "userlab": "VU",
                     "pmid": "25730884",
                     "figures": "Fig 2a-d",
                     "uniprot": "Q69ZP3",
                     "goDomain": "CC",
                     "goTerm": "GO:0099523",
-                    "goTermName": "presynaptic cytosol (GO:0099523)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -281,16 +257,12 @@
             "models": [
                 {
                     "annotationid": 138,
-                    "timestamp": "2017-03-20 18:19:34",
-                    "userid": "179600",
                     "username": "chua",
-                    "userlab": "chua",
                     "pmid": "20926670",
                     "figures": "Table 1; Figs 1, 2 and 3",
                     "uniprot": "O35509",
                     "goDomain": "CC",
                     "goTerm": "GO:0098993",
-                    "goTermName": "anchored component of synaptic vesicle membrane (GO:0098993)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -333,16 +305,12 @@
             "models": [
                 {
                     "annotationid": 164,
-                    "timestamp": "2017-03-21 09:43:07",
-                    "userid": "38545",
                     "username": "ruud",
-                    "userlab": "VU",
                     "pmid": "12575951",
                     "figures": "Fig 3-8",
                     "uniprot": "Q9VQQ9",
                     "goDomain": "BP",
                     "goTerm": "GO:0060074",
-                    "goTermName": "synapse maturation (GO:0060074)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -376,16 +344,12 @@
             "models": [
                 {
                     "annotationid": 203,
-                    "timestamp": "2017-03-20 18:30:50",
-                    "userid": "128790",
                     "username": "vanweering",
-                    "userlab": "VU",
                     "pmid": "24261326",
                     "figures": "Fig 6",
                     "uniprot": "Q9WV80",
                     "goDomain": "CC",
                     "goTerm": "GO:0098999",
-                    "goTermName": "extrinsic component of postsynaptic endosome membrane (GO:0098999)",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -419,16 +383,12 @@
             "models": [
                 {
                     "annotationid": 1107,
-                    "timestamp": "2017-07-07 20:17:50",
-                    "userid": "41581",
                     "username": "testuser",
-                    "userlab": "testuser",
                     "pmid": "1",
                     "figures": "2",
                     "uniprot": "P31016",
                     "goDomain": "CC",
                     "goTerm": "GO:0005789",
-                    "goTermName": "anchored component of postsynaptic ER membrane",
                     "regulates": false,
                     "evidence": {
                         "system": [
