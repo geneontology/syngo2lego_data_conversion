@@ -5234,9 +5234,9 @@
                     },
                     "extensions": [
                         {
-                            "part_of": {
-                                "1": "GO:0098978"
-                            }
+                            "part_of": [
+                                "GO:0098978"
+                            ]
                         }
                     ],
                     "comments": {
@@ -7643,9 +7643,9 @@
                             ]
                         },
                         {
-                            "occurs_in": {
-                                "1": "GO:0098978"
-                            }
+                            "occurs_in": [
+                                "GO:0098978"
+                            ]
                         }
                     ],
                     "comments": {
@@ -7688,9 +7688,9 @@
                             ]
                         },
                         {
-                            "occurs_in": {
-                                "1": "GO:0098978"
-                            }
+                            "occurs_in": [
+                                "GO:0098978"
+                            ]
                         }
                     ],
                     "comments": {
@@ -12426,6 +12426,47 @@
                     "comments": {
                         "species": "Synaptic fractionation was obtained from adult rat brain homogenate\nLRRTM2 immunofluorescence was done in mouse brain sections\nOverexpressed constructs are from rat: \" Full length cDNAs for LRRTMs were made using RT-PCR from p11 rat brain total\nRNA\"",
                         "rationale": "Fig. 2 LRRTM2 induces Excitatory Presynaptic Differentiation\nLiteral\n\"We tested whether the synaptogenic activity was restricted to excitatory or inhibitory presynaptic differentiation. The CFP fusion proteins were scored blind for significant clustering of the presynaptic vesicular neurotransmitter transporters,VGLUT1 andVGAT, to identify excitatory or inhibitory presynaptic differentiation, respectively.\"\nFig. 7b\nSynaptic fractionation of adult rat brain homogenate shows LRRTM2 enrichment in the PSD fraction\nLiteral\n\"Synaptic fractionation of adult rat brain homogenate. The ∼80 kDa band corresponding to LRRTM2 is abundant in the PSD fraction along with PSD-95. LRRTM2 is detected in the P2, synaptosome, and synaptic plasma membrane (SPM) fractions but less so in the cytoplasm and synaptic vesicle (SV) fractions.\nFig. 7c-f\nImmunofluorescence data shows localization of LRRTM2 to glutamatergic postsynaptic sites in adult rodent brain.\nLiteral\n\"(C) LRRTM2 is widely detected in synaptic neuropil regions throughout the cortex and hippocampal formation. LRRTM2 exhibits a laminar-selective distribution; for example, in the CA1 region, LRRTM2 is present at higher levels in stratum lacunosum moleculare (SLM) than in radiatum (Rad) or oriens (Ori). (D) LRRTM2 is detected in the granule cell layer and molecular layer of the cerebellum. (C and D) Scale bar, 200 μm. (E) In hippocampus, LRRTM2 is particularly prominent in CA3 mossy fibers synapses shown here. Colocalization with the general synaptic marker bassoon and the excitatory synaptic marker VGLUT1 is shown. Enlarged regions are shown in the same color channels as the main panels (upper left LRRTM2 grayscale; lower left LRRTM2 green with bassoon blue; upper right LRRTM2 green with VGLUT1 red; lower right triple-channel overlay). (F) LRRTM2 also colocalized with bassoon and VGLUT1 in cerebellar glomerular synapses.\"\n\n24\/5\/2017 Pim\n- Fig.3: non-neuronal cells transfected with LRRTM2-CFP (rat protein) and NMDAR (simulating a postsynaptic neuron) are able to induce presynaptic differentiation of a neuron (detectable glutamate release from SV's)\n- Fig.6: artificial clustering of over-expressed LRRTM2 in hipp neurons, induces post-synaptic differentiation. This data does not proove, but supports a postsynaptic localization of LRRTM4.\n- Fig.S6: in low density cultures over-expressed LRRTM2 trafficks into the dendrite and synaptic contacts. This also supports post-synaptic localization."
+                    }
+                }
+            ]
+        },
+        {
+            "combi_id": "SYNGO:551",
+            "datestamp": "2017-08-29",
+            "status": "development",
+            "models": [
+                {
+                    "annotationid": 551,
+                    "username": "bagni",
+                    "pmid": "12941608",
+                    "figures": "fig 6",
+                    "uniprot": "Q9QXX8",
+                    "goDomain": "CC",
+                    "goTerm": "GO:0045202",
+                    "regulates": false,
+                    "evidence": {
+                        "system": [
+                            "biosys:intacttissue"
+                        ],
+                        "target": [
+                            "ECO:0005593"
+                        ],
+                        "assay": [
+                            "ECO:0006003",
+                            "ECO:0000279",
+                            "ECO:0006042"
+                        ]
+                    },
+                    "extensions": [
+                        {
+                            "part_of": [
+                                "UBERON:0002421"
+                            ]
+                        }
+                    ],
+                    "comments": {
+                        "species": "EM was performed on mouse hippocampal slices\nSynaptosome preparation was performed on rat pups (P12–14)",
+                        "rationale": "Immuo-EM shows NUFIP1 association both with ribosomes located at the endoplasmic reticulum membrane and polyribosomes near synapses.\n\nFurthermore NUFIP1 is present in active synaptoneurosomes: brain nuclear and synaptoneurosomal extracts were analyzed for the presence of CREB, NUFIP1 and αCaMKII. NUFIP1 was detected in both the nuclear and synaptoneurosomal fractions, whereas the nuclear protein CREB is only present in the nuclear extracts.\n\n29\/8\/2017 Pim\n- I cannot discern pre- and post-synaptic sites in the EM images in Fig.9 and therefore agree to the non-discriminating term 'synapse (GO:0045202)'."
                     }
                 }
             ]
