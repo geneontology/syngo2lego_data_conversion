@@ -5396,13 +5396,13 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0006003",
-                            "1": "ECO:0005589",
-                            "2": "ECO:0000279",
-                            "3": "ECO:0006042",
-                            "5": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0006003",
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -9086,13 +9086,13 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0005589",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0005644",
-                            "5": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -16041,12 +16041,12 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0005589",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0005805"
-                        }
+                        "assay": [
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005805"
+                        ]
                     },
                     "extensions": [
                         {
@@ -17734,13 +17734,13 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0005589",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0005644",
-                            "5": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -17871,13 +17871,13 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0005589",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0005644",
-                            "5": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -18046,12 +18046,12 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0005589",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -18433,13 +18433,13 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0006003",
-                            "1": "ECO:0005589",
-                            "2": "ECO:0000279",
-                            "3": "ECO:0006042",
-                            "5": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0006003",
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -18655,25 +18655,25 @@
                             "ECO:0006042"
                         ]
                     },
-                    "extensions": {
-                        "0": {
+                    "extensions": [
+                        {
                             "part_of": [
                                 "UBERON:0000955",
                                 "GO:0098978"
                             ]
                         },
-                        "2": {
+                        {
                             "part_of": [
                                 "UBERON:0002435",
                                 "GO:0098978"
                             ]
                         },
-                        "3": {
+                        {
                             "part_of": [
                                 "GO:0098685"
                             ]
                         }
-                    },
+                    ],
                     "comments": {
                         "species": "For electron microscopy, four adult (250–350 gm) male Sprague Daw- ley rats (Hilltop Lab) were anesthetized...\nSubcellular fractionation: Rat brain synaptic vesicles were purified from isolated nerve terminals...",
                         "rationale": "The proline transporter (PROT) is an integral membrane protein expressed in a subset of excitatory (glutamatergic, asymmetric) synapses in different brain regions. \n\nPre- and postembedding immuno-EM reveals a localization to synaptic vesicles in a subset of glutamatergic terminals (Fig. 4-6). Subcellular fractionation demonstrates that PROT is highly enriched in the purified synaptic vesicle (SV) fraction, similarly to the SV proteins Synaptobrevin-2 and Synaptophysin (Fig.7). Treatment of purified SVs with a mixture of endo- and exoproteases allows the digestion of cytoplasmic domains, indicating that the N- and C-termini of PROT are cytoplasmic (Fig.8). This topology of the PROT protein is 'inverted' with respect to the plasma membrane orientation (See discussion and Fig. 9), indicating shuttling of PROT between SVs and the plasma membrane.\n\nAntibodies: Polyclonal rabbit antibody A2 was produced and affinity-purified by Research Genetics (Huntsville, AL) against residues 2–18 from the predicted N terminus of rat PROT (KKLQEAHLRKPVTPDLL). The affinity-purified polyclonal anti- body directed against the C terminus of rat PROT, antibody C597, has been described previously (Velaz-Faircloth et al., 1995). Both antibodies were tested for its specificity by biochemistry using stably PROT expressing HEK cells and transiently expressing HeLa cells (Fig.1). C597 antibody, preabsorbed with the C-terminal antigenic peptide, did not produce any immunoreactivity by immunohistochemistry (Fig.2D)."
@@ -18707,24 +18707,24 @@
                             "ECO:0006062"
                         ]
                     },
-                    "extensions": {
-                        "0": {
+                    "extensions": [
+                        {
                             "part_of": [
                                 "UBERON:0002435",
                                 "GO:0098978"
                             ]
                         },
-                        "2": {
+                        {
                             "part_of": [
                                 "UBERON:0000955"
                             ]
                         },
-                        "3": {
+                        {
                             "part_of": [
                                 "GO:0098685"
                             ]
                         }
-                    },
+                    ],
                     "comments": {
                         "species": "For electron microscopy, four adult (250–350 gm) male Sprague Daw- ley rats (Hilltop Lab) were anesthetized...\nSubcellular fractionation: Rat brain synaptic vesicles were purified from isolated nerve terminals...",
                         "rationale": "The proline transporter (PROT) is an integral membrane protein expressed in a subset of excitatory (glutamatergic, asymmetric) synapses in different brain regions. \n\nPre- and postembedding immuno-EM reveals a localization of PROT predominately to synaptic vesicles in a subset of glutamatergic terminals, but also to the plasma membrane (Fig. 5B).\n\nAntibodies: Polyclonal rabbit antibody A2 was produced and affinity-purified by Research Genetics (Huntsville, AL) against residues 2–18 from the predicted N terminus of rat PROT (KKLQEAHLRKPVTPDLL). The affinity-purified polyclonal anti- body directed against the C terminus of rat PROT, antibody C597, has been described previously (Velaz-Faircloth et al., 1995). Both antibodies were tested for its specificity by biochemistry using stably PROT expressing HEK cells and transiently expressing HeLa cells (Fig.1). C597 antibody, preabsorbed with the C-terminal antigenic peptide, did not produce any immunoreactivity by immunohistochemistry (Fig.2D)."
@@ -20542,14 +20542,14 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0005589",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0005644",
-                            "5": "ECO:0000353",
-                            "6": "ECO:0005805"
-                        }
+                        "assay": [
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353",
+                            "ECO:0005805"
+                        ]
                     },
                     "extensions": [
                         {
@@ -21115,13 +21115,13 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0000279",
-                            "1": "ECO:0006042",
-                            "3": "ECO:0005644",
-                            "4": "ECO:0000353",
-                            "5": "ECO:0005805"
-                        }
+                        "assay": [
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353",
+                            "ECO:0005805"
+                        ]
                     },
                     "extensions": [
                         {
@@ -22336,15 +22336,15 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0006003",
-                            "1": "ECO:0005589",
-                            "2": "ECO:0000279",
-                            "3": "ECO:0006042",
-                            "4": "ECO:0001230",
-                            "7": "ECO:0005644",
-                            "8": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0006003",
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0001230",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -23460,13 +23460,13 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0005589",
-                            "1": "ECO:0006062",
-                            "2": "ECO:0000279",
-                            "3": "ECO:0006042",
-                            "5": "ECO:0005581"
-                        }
+                        "assay": [
+                            "ECO:0005589",
+                            "ECO:0006062",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005581"
+                        ]
                     },
                     "extensions": [
                         {
@@ -23800,13 +23800,13 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0001232",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0005644",
-                            "5": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0001232",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -24995,12 +24995,12 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0000279",
-                            "1": "ECO:0006042",
-                            "3": "ECO:0005644",
-                            "4": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -25213,14 +25213,14 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0006003",
-                            "1": "ECO:0005589",
-                            "2": "ECO:0000279",
-                            "3": "ECO:0006042",
-                            "5": "ECO:0005644",
-                            "6": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0006003",
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -25433,14 +25433,14 @@
                             "ECO:0001225",
                             "ECO:0006052"
                         ],
-                        "assay": {
-                            "0": "ECO:0006013",
-                            "1": "ECO:0000279",
-                            "2": "ECO:0006042",
-                            "4": "ECO:0005644",
-                            "5": "ECO:0000353",
-                            "6": "ECO:0005805"
-                        }
+                        "assay": [
+                            "ECO:0006013",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005644",
+                            "ECO:0000353",
+                            "ECO:0005805"
+                        ]
                     },
                     "extensions": [
                         {
@@ -25799,11 +25799,11 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0000279",
-                            "1": "ECO:0006042",
-                            "3": "ECO:0001255"
-                        }
+                        "assay": [
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0001255"
+                        ]
                     },
                     "extensions": [
                         {
@@ -26019,14 +26019,14 @@
                             "ECO:0006062"
                         ]
                     },
-                    "extensions": {
-                        "1": {
+                    "extensions": [
+                        {
                             "part_of": [
                                 "UBERON:0000010",
                                 "GO:0098981"
                             ]
                         }
-                    },
+                    ],
                     "comments": {
                         "species": "Material and Methods; Figure Legend. Fluoresence imaging was carried out on chick vibratome sections, rat cryostat sections or transfected HEK293. The partial sequence from the constant region of the chick pcdh-alpha family......was used to screen a phage library. Figure 2 Comparative sequence analysis of pcdh-alphac1 and c2 cloned from chick CG.",
                         "rationale": "This paper identities the cDNA from the chick alpha Cadherin gene cluster. It utilizes predicted amino acids from the constant cytoplasmic domain to immuno-label chick ciliary ganglia. The show apposition to post synaptic nicotinic receptors and co-labelling with presynaptic markers. Subsequent labelling and co-staining of chick iris muscle and axons support the notion of axonal and presynaptic targeting not fully extending into the terminal. Evidence lacks resolution to more precisely define synaptic location."
@@ -26262,15 +26262,15 @@
                         "target": [
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0006003",
-                            "1": "ECO:0005589",
-                            "2": "ECO:0000279",
-                            "3": "ECO:0006042",
-                            "4": "ECO:0001230",
-                            "7": "ECO:0005644",
-                            "8": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0006003",
+                            "ECO:0005589",
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0001230",
+                            "ECO:0005644",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -26316,12 +26316,12 @@
                             "ECO:0006063",
                             "ECO:0005593"
                         ],
-                        "assay": {
-                            "0": "ECO:0000279",
-                            "1": "ECO:0006042",
-                            "3": "ECO:0005805",
-                            "4": "ECO:0000353"
-                        }
+                        "assay": [
+                            "ECO:0000279",
+                            "ECO:0006042",
+                            "ECO:0005805",
+                            "ECO:0000353"
+                        ]
                     },
                     "extensions": [
                         {
@@ -27618,20 +27618,20 @@
                             "ECO:0006042"
                         ]
                     },
-                    "extensions": {
-                        "1": {
+                    "extensions": [
+                        {
                             "part_of": [
                                 "UBERON:0001875",
                                 "GO:0098982"
                             ]
                         },
-                        "2": {
+                        {
                             "part_of": [
                                 "UBERON:0002435",
                                 "GO:0098978"
                             ]
                         }
-                    },
+                    ],
                     "comments": {
                         "species": "Paper focussed on mouse brain lysate, brain section, slices and whole animal as indicated in the Figure legends (e.g. Figure 1 B \"mouse brain lysate\" and supplementary figures (e.g. Supplementary Figure 1 .\"...in serial coronal sections of a P10 mouse\")  Primate brain section staining described in figure 8 but not used in the annotation.",
                         "rationale": "Paper characterized PCDH-17 in the corticobasal ganglia circuits with a particular focus on the excitatory prefrontal cortex striatal projections and the inhibitory striatal globus pallidus projections. Utilizing an antibody, whose molecular determinants are not well described, they show excellent specificity utilizing loss of immunoreactivity in western blots, histology and electron microscopy performed with knockout tissue. These antibodies are used in super-resolution immunofluorescence and quantitative immunoglold electron microscopy to show PCDH17 is concentrated in synaptic specialization at the periphery of the active zone and the postsynaptic density on both sides of the synapse. This is true at both the excitatory and inhibitory synapses. The knock-out animals allow investigation of synaptic function and the best evidence is that genetic deletion leads to a reorganization of pre-synaptic vesicles, which in the paper focuses on excitatory synapses. These morphological data hint at an increase in vesicle numbers and this is consistent with the modest reduction in the rate synaptic depression in the PCDH-17 knock out animals relative to the control."
