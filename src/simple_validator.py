@@ -23,7 +23,7 @@ def test_jschema(validator, test_pattern):
 
 f = open(sys.argv[1], 'r')
 
-spec = yaml.load(f.read())
+spec = yaml.safe_load(f.read())
 
 v = Draft4Validator(spec)
 
