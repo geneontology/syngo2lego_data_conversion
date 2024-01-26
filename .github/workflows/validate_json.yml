@@ -11,14 +11,14 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.5]
+        python-version: [3.9]
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
     - name: Set up Python
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
 
