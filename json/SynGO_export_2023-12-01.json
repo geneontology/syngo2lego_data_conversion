@@ -52650,7 +52650,7 @@
                     "figures": "Figure 5, 6",
                     "uniprot": "O70593",
                     "goDomain": "BP",
-                    "goTerm": "GO:0061077",
+                    "goTerm": "GO:0006457",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -72284,7 +72284,7 @@
                     "figures": "Figure 1, 2, 3, 4, 5, 6",
                     "uniprot": "P60904",
                     "goDomain": "BP",
-                    "goTerm": "GO:0061077",
+                    "goTerm": "GO:0006457",
                     "regulates": false,
                     "evidence": {
                         "system": [
@@ -72333,7 +72333,7 @@
                     "figures": "Figure 5, 6",
                     "uniprot": "P63017",
                     "goDomain": "BP",
-                    "goTerm": "GO:0061077",
+                    "goTerm": "GO:0006457",
                     "regulates": false,
                     "evidence": {
                         "system": [
